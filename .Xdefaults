@@ -1,0 +1,219 @@
+!--------------------------------------
+!
+!	X T E R M - Setting
+!
+!
+!!XTerm*underLine:		on
+!XTerm*colorBD:			lightyellow
+!XTerm*colorBDMode:		off
+!XTerm*colorUL:			yellow
+!XTerm*colorULMode:		on
+!XTerm*dynamicColors:		off
+!XTerm*highlightSelection:	true
+!XTerm*foreground:	#ffffff
+!
+!xterm*geometry:           80x25
+!xterm*faceName:           terminusbold:pixelsize=14
+!!xterm*font:             -*-dina-medium-r-*-*-16-*-*-*-*-*-*-*
+!xterm*dynamicColors:      true
+!xterm*utf8:               2
+!xterm*eightBitInput:      true
+!xterm*saveLines:          512
+!xterm*scrollTtyKeypress:  true
+!xterm*scrollTtyOutput:    false
+!xterm*scrollBar:          true
+!xterm*rightScrollBar:     true
+!xterm*loginShell:         true
+!xterm*jumpScroll:         true
+!xterm*multiScroll:        true
+!xterm*toolBar:            false
+
+
+!------------------!
+!	XTERM            !
+!------------------!
+
+! Find FontFamilies: c-list | col | sort | less
+! Test Font Config: xterm -fa 'Arial Mono' -fs 10
+XTerm*faceName: terminus
+XTerm*faceSize: 9
+XTerm*colorMode: on
+! !XTerm*foreground: #c6c6c6
+! XTerm*background:	#1c1c1c
+! XTerm*foreground: #ffffff
+! !XTerm*background:	#000000
+!! colors
+! !!black
+! XTerm*color0: #000000
+! XTerm*color8:	#666666
+! !!red
+! XTerm*color1:	#9e1828
+! XTerm*color9:	#cf6171
+! !!green
+! XTerm*color2:	#87d75f
+! XTerm*color10: #c5f779
+! !!yellow
+! XTerm*color3:	#968a38
+! XTerm*color11: #ffff00
+! !!blue
+! XTerm*color4:	#414171
+! XTerm*color12: #87afff
+! !magenta
+! XTerm*color5: #96c359
+! XTerm*color13: #cf9ebe
+! !!cyan
+! XTerm*color6: #418179
+! XTerm*color14: #71bebe
+! !white
+! XTerm*color7: #bebebe
+! XTerm*color15: #ffffff
+
+#other
+######
+xterm*internalBorder:        0
+xterm*loginShell:         true
+xterm*scrollBar:         false
+xterm*cursorBlink:       false
+!xterm*geometry:         80x26
+xterm*saveLines:         65535
+xterm*dynamicColors:        on
+xterm*highlightSelection: true
+! Appearance
+xterm*utf8:          2
+xterm*eightBitInput: true
+!xterm*font:        -xos4-terminus-medium-*-*-*-12-*-*-*-*-*-iso8859-2
+!xterm*boldFont:    -xos4-terminus-bold-*-*-*-12-*-*-*-*-*-iso8859-2
+xterm*cursorColor: #DCDCCC
+! Zenburn
+xterm*background:  #3f3f3f
+xterm*foreground:  #dcdccc
+xterm*color0:      #1E2320
+xterm*color1:      #705050
+xterm*color2:      #60b48a
+xterm*color3:      #dfaf8f
+xterm*color4:      #506070
+xterm*color5:      #dc8cc3
+xterm*color6:      #8cd0d3
+xterm*color7:      #dcdccc
+xterm*color8:      #709080
+xterm*color9:      #dca3a3
+xterm*color10:     #c3bf9f
+xterm*color11:     #f0dfaf
+xterm*color12:     #94bff3
+xterm*color13:     #ec93d3
+xterm*color14:     #93e0e3
+xterm*color15:     #ffffff
+
+!------------------!
+!	URXVT            !
+!------------------!
+!URxvt.termName: xterm # ssh problem fix!
+URxvt.saveLines: 10000
+URxvt.scrollBar: false
+!URxvt.inheritPixmap: true
+URxvt.tintColor: white
+!URxvt.shading: 70
+!URxvt.foreground: black
+URxvt.foreground: white
+!URxvt.background: rgba:0000/0000/0000/aaaa
+URxvt.background: grey12
+URxvt.depth: 32
+URxvt.secondaryScroll: true
+URxvt.font: xft:Bitstream Vera Sans Mono:pixelsize=12
+URxvt.internalBorder: 0
+# getting url launcher working!
+URxvt.perl-lib: /usr/lib/urxvt/perl/
+URxvt.perl-ext-common: default,matcher
+URxvt.urlLauncher: firefox
+URxvt.matcher.button: 1i
+# color scheme
+! Normal
+! ! color0    black
+! ! color1    red
+! ! color2    green
+! ! color3    yellow
+! ! color4    blue
+! ! color5    purple
+! ! color6    cyan
+! ! color7    white
+urxvt*color0:    #2c2c2c
+urxvt*color1:    #e9897c
+urxvt*color2:    #b6e77d
+urxvt*color3:    #ecebbe
+urxvt*color4:    #a9cdeb
+urxvt*color5:    #ea96eb
+urxvt*color6:    #c9caec
+urxvt*color7:    #f2f2f2
+! ! Light
+! ! color8    black
+! ! color9    red
+! ! color10    green
+! ! color11    yellow
+! ! color12    blue
+! ! color13    purple
+! ! color14    cyan
+! ! color15    white
+urxvt*color8:    #747474
+urxvt*color9:    #f99286
+urxvt*color10:    #c3f786
+urxvt*color11:    #fcfbcc
+urxvt*color12:    #b6defb
+urxvt*color13:    #fba1fb
+urxvt*color14:    #d7d9fc
+urxvt*color15:    #e2e2e2
+
+!------------------!
+!	XCALC            !
+!------------------!
+xcalc*geometry: 200x275
+xcalc.ti.bevel.background: #111111
+xcalc.ti.bevel.screen.background: #000000
+xcalc.ti.bevel.screen.DEG.background: #000000
+xcalc.ti.bevel.screen.DEG.foreground: LightSeaGreen
+xcalc.ti.bevel.screen.GRAD.background: #000000
+xcalc.ti.bevel.screen.GRAD.foreground: LightSeaGreen
+xcalc.ti.bevel.screen.RAD.background: #000000
+xcalc.ti.bevel.screen.RAD.foreground: LightSeaGreen
+xcalc.ti.bevel.screen.INV.background: #000000
+xcalc.ti.bevel.screen.INV.foreground: Red
+xcalc.ti.bevel.screen.LCD.background: #000000
+xcalc.ti.bevel.screen.LCD.foreground: LightSeaGreen
+xcalc.ti.bevel.screen.LCD.shadowWidth: 0
+xcalc.ti.bevel.screen.M.background: #000000
+xcalc.ti.bevel.screen.M.foreground: LightSeaGreen
+xcalc.ti.bevel.screen.P.background: #000000
+xcalc.ti.bevel.screen.P.foreground: Yellow
+xcalc.ti.Command.foreground: White
+xcalc.ti.Command.background: #777777
+xcalc.ti.button5.background: Orange3
+xcalc.ti.button19.background: #611161
+xcalc.ti.button18.background: #611161
+xcalc.ti.button20.background: #611111
+xcalc.ti.button25.background: #722222
+xcalc.ti.button30.background: #833333
+xcalc.ti.button35.background: #944444
+xcalc.ti.button40.background: #a55555
+xcalc.ti.button22.background: #222262
+xcalc.ti.button23.background: #222262
+xcalc.ti.button24.background: #222272
+xcalc.ti.button27.background: #333373
+xcalc.ti.button28.background: #333373
+xcalc.ti.button29.background: #333373
+xcalc.ti.button32.background: #444484
+xcalc.ti.button33.background: #444484
+xcalc.ti.button34.background: #444484
+xcalc.ti.button37.background: #555595
+xcalc.ti.button38.background: #555595
+xcalc.ti.button39.background: #555595
+XCalc*Cursor:                 hand2
+XCalc*ShapeStyle:             rectangle
+!---------------------!
+!	XMESSAGE            !
+!---------------------!
+xmessage.form.okay.shapeStyle: rectangle
+xmessage.form.okay.background: #777777
+xmessage.form.okay.foreground: snow
+xmessage*message*background: snow
+xmessage*defaultButton: okay
+Xmessage.form.message.Scroll:  WhenNeeded
+
